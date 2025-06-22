@@ -1,0 +1,315 @@
+﻿  pch.cpp
+  dllmain.cpp
+  SAP.cpp
+  Gerando Código...
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(46,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Ins' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(112,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Program_Counter' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(155,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Ram' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(202,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'ULA' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(243,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Rem' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(268,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Register' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,45): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,45): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,45): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,53): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,53): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,53): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,61): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,61): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,61): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,69): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,69): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,69): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,77): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,77): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,77): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,85): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,85): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,85): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,93): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,93): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,93): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,101): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,101): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(318,101): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,45): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,45): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,45): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,53): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,53): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,53): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,61): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,61): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,61): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,69): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,69): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,69): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,77): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,77): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,77): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,85): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,85): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,85): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,93): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,93): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(319,93): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,45): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,45): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,45): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,53): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,53): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,53): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,61): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,61): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,61): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,69): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,69): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,69): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,77): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,77): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,77): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,85): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,85): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,85): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,93): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,93): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,93): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,101): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,101): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(320,101): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,45): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,45): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,45): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,53): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,53): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,53): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,61): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,61): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,61): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,69): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,69): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,69): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,77): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,77): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,77): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,85): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,85): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,85): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,93): error C2397: a conversão de 'int' em 'const unsigned char' requer uma conversão de restrição
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,93): warning C4305: 'inicializando': truncamento de 'int' para 'const unsigned char'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(321,93): warning C4309: 'inicializando': truncamento de valor constante
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(314,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Rom' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(335,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Instruction_Controler_Sequencializador' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(355,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Registrador_Instrucoes' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(369,45): error C2760: erro de sintaxe: ',' não era esperado aqui; o esperado era ')'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(369,46): error C2059: erro de sintaxe: ')'
+  (compilando o arquivo fonte '/SAP.cpp')
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(369,13): error C2512: 'ULA': nenhum construtor padrão apropriado disponível
+  (compilando o arquivo fonte '/SAP.cpp')
+      C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(202,31):
+      consulte a declaração de 'ULA'
+  
+C:\Users\User\source\repos\SAP_logic\SAP_logic\SAP.h(362,31): warning C4091: '__declspec(dllexport)': ignorado à esquerda de 'Buffer' quando nenhuma variável é declarada
+  (compilando o arquivo fonte '/SAP.cpp')
+  
