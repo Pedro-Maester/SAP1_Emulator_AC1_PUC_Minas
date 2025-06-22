@@ -302,6 +302,10 @@ public:
     void set_dados(unsigned char d) {
         this->dados = d;
     }
+    void exit_dados() {
+        *this->saida = this->dados;
+        return;
+    }
     unsigned char get_dados() {
         return this->dados;
     }
@@ -385,7 +389,7 @@ private:
     Program_Counter pc;
     Ram ram = Ram(16);
     Rem rem = Rem(&this->ram);
-    Register A;
+    Register A = Register(&this->dados);
     Register B;
     ULA ops = ULA(this->A.get_dados_adress(), this->B.get_dados_adress());
     
