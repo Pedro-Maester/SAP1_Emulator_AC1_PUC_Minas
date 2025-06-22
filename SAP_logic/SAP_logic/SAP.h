@@ -169,6 +169,9 @@ public:
     bool count_program() {
         return this->get_activated(Cp);
     }
+    unsigned char* get_count_adress() {
+        return &this->count;
+    }
 };
 
 
@@ -180,7 +183,7 @@ private:
     unsigned char tam = 0;
 public:
     Ram(unsigned char tam) {
-        ins_id ids[2] = { nCE,RDnWR };
+        //ins_id ids[2] = { nCE,RDnWR };
         //Ins(2,ids);
         this->tam = tam;
         this->mem = new unsigned char[this->tam]();
@@ -191,7 +194,7 @@ public:
         delete[] mem;
     }
     void set_val_at_ptr(unsigned char val) {
-        this->mem[this->ptr] = val;
+        this->mem[this->ptr>>4] = val;
 
     }
     void set_val_at(unsigned char i, unsigned char val) {
@@ -205,7 +208,7 @@ public:
         return this->mem[i];
     }
     unsigned char get_val_at_ptr() {
-        return this->mem[this->ptr];
+        return this->mem[this->ptr>>4];
     }
     void clear_mem() {
         for (unsigned char i = 0; i < this->tam; i += 1)this->mem[i] = 0;
@@ -217,6 +220,12 @@ public:
         this->ptr = 0;
 
     }
+    unsigned char* get_mem_adress_at_ptr() {
+        return &this->mem[this->ptr>>4];
+    }
+    unsigned char* get_ptr_adress() {
+        return &this->ptr;
+    }
     
 };
 
@@ -225,9 +234,37 @@ private:
     unsigned char dados = 0;
     unsigned char* a_input = nullptr;
     unsigned char* b_input = nullptr;
+    bool su = false;
+    unsigned char modo = 0;
     
 public:
+    void ativar() {
+        switch (this->modo)
+        {
+        case IncDec:
+            if (Su)this->dec();
+            else this->inc();
+            break;
+        case Mul:
+            if (Su)this->div();
+            else this->mult();
+        default:
+            if (Su)this->sub();
+            else this->sum();
+            break;
+        }
+        this->su = false;
+        this->modo = 0;
+        return;
+    }
     ULA(unsigned char* a, unsigned char* b):a_input(a),b_input(b){
+    }
+    void reverse_op() {
+        this->su = true;
+        return;
+    }
+    void set_modo(unsigned char m) {
+        this->modo = m;
     }
     void CLR() {
         this->dados = 0;
@@ -249,13 +286,16 @@ public:
     }
 
     void inc() {
-        this->dados += 1;
+        this->dados = *this->a_input +1;
     }
     void dec() {
-        this->dados -= 1;
+        this->dados = *this->a_input -1;
     }
     unsigned char get_dados() {
         return this->dados;
+    }
+    unsigned char* get_dados_adress() {
+        return &this->dados;
     }
     
 
@@ -281,6 +321,9 @@ public:
     }
     unsigned char get_val_at_ram_target() {
         return this->target->get_val_at(this->mem_adress);
+    }
+    unsigned char* get_ptr_adress() {
+        return this->target->get_ptr_adress();
     }
 
 };
@@ -359,11 +402,14 @@ public:
 
 extern "C" SAPLOGIC_API class Instruction_Controler_Sequencializador:Ins {
 private:
+    Register* registrador;
     Rom rom;
     unsigned char cur;
     
 public:
-
+    Instruction_Controler_Sequencializador(Register* I) {
+        this->registrador = I;
+    }
     void set_cur_ins(code i) {
         this->cur = this->rom.get_ins_adress(i);
     }
@@ -385,12 +431,17 @@ extern "C" SAPLOGIC_API class Registrador_Instrucoes :Ins {
 extern "C" SAPLOGIC_API class Buffer:Ins {
 private:
     unsigned char dados = 0;
+    unsigned char* read = nullptr;
+    unsigned char* write = nullptr;
  
     Program_Counter pc;
     Ram ram = Ram(16);
     Rem rem = Rem(&this->ram);
     Register A = Register(&this->dados);
     Register B;
+    Register O;
+    Register I;
+    Instruction_Controler_Sequencializador ICS = Instruction_Controler_Sequencializador(&this->I);
     ULA ops = ULA(this->A.get_dados_adress(), this->B.get_dados_adress());
     
    
@@ -400,35 +451,41 @@ public:
         this->dados = 0;
 
    }
-    void Operar() {
-        while ((pc.get_count() < 16) && (ram.get_val_at(pc.get_count() != 15))) {
+    bool Operar() {
+        if((pc.get_count() < 16) && (ram.get_val_at(pc.get_count() != 15))) {
 
-            while (this->get_clocks() < 6) {
+            if(this->get_clocks() < 6) {
+                this->write = this->read = nullptr;
                 if (this->get_clk()) {
                     if (this->get_activated(Cp));
                     if (this->get_activated(Ep));
-                    if (this->get_inactivated(nLm));
+                    if (this->get_inactivated(nLm))this->write = this->rem.get_ptr_adress();
                     if (this->get_inactivated(nCE));
-                    if (this->get_inactivated(nLi));
-                    if (this->get_inactivated(nEi));
-                    if (this->get_inactivated(nLa));
-                    if (this->get_activated(Ea));
-                    if (this->get_activated(Su));
-                    if (this->get_activated(Eu));
-                    if (this->get_inactivated(nLb));
-                    if (this->get_inactivated(nLo));
-                    if (this->get_activated(IncDec));
-                    if (this->get_activated(RDnWR));
-                    else;
-                    if (this->get_activated(Mul));
-                    if (this->get_activated(Lp));
+                    if (this->get_inactivated(nLi))this->write = this->I.get_dados_adress();
+                    if (this->get_inactivated(nEi))this->read = this->I.get_dados_adress();
+                    if (this->get_inactivated(nLa))this->write = this->A.get_dados_adress();
+                    if (this->get_activated(Ea))this->read = this->A.get_dados_adress();
+                    if (this->get_activated(Su))this->ops.reverse_op();
+                    if (this->get_activated(Eu))this->read = this->ops.get_dados_adress();
+                    if (this->get_inactivated(nLb))this->write = this->B.get_dados_adress();
+                    if (this->get_inactivated(nLo))this->write = this->O.get_dados_adress();
+                    if (this->get_activated(IncDec))this->ops.set_modo(IncDec);
+                    if (this->get_activated(RDnWR))this->read = this->ram.get_mem_adress_at_ptr();
+                    else this->write = this->ram.get_mem_adress_at_ptr();
+                    if (this->get_activated(Mul))this->ops.set_modo(Mul);
+                    if (this->get_activated(Lp))this->write = this->pc.get_count_adress();
                     if (this->get_clear());
                     this->clocking();
+                    
                 }
+                this->ops.ativar();
+                if (this->write && this->read)*this->write = *this->read;
+                
                 this->clks();
             }
             this->clocking_reset();
+            return false;
         }
-        return;
+        return true;
     }
 };
