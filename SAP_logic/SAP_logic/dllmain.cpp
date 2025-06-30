@@ -1,6 +1,6 @@
 // dllmain.cpp : Define o ponto de entrada para o aplicativo DLL.
 #include "pch.h"
-
+#include "SAP.h"
 BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,
                        LPVOID lpReserved
