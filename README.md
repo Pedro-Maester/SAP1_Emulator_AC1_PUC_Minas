@@ -1,2 +1,3 @@
 # SAP1_Emulator_AC1_PUC_Minas
-SAP1 emulator
+main:SAP1_Emulator.py 
+dll:SAP_logic
